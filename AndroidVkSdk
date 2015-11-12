@@ -1,0 +1,9 @@
+ общественные  статические  Струнные  getSettings () {
+-         //http://vk.com/dev/ Разрешение
++         //http://vk.com/dev/~~number=plural Разрешения
+         return  " notify,friends,photos,audio,video,docs,status,notes,pages,wall,groups,messages,offline,notifications " ;
+     }
+     
+ @@-30,4 +30,4@@Общественных статическая строка getSettings () {
+             бросить  новый  Exception ("Не удалось разобрать URL переадресации" + URL);
+         вернуться  новый  Струнный [] {access_token, user_id};
